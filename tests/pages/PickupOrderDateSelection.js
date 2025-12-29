@@ -11,8 +11,8 @@ async selectPickupDate()
     //await dateLocator.click();  
 
     await this.page.getByRole('dialog').getByText('Pickup', { exact: true }).click();
-    await this.page.locator('#mday').click();
-    await this.page.getByRole('cell', { name: '25' }).click();
+    //await this.page.locator('#mday').click();
+    //await this.page.getByRole('cell', { name: '25' }).click();
     await this.page.getByRole('button', { name: 'Start Order' }).click();
 
 }

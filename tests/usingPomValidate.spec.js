@@ -25,7 +25,7 @@ test('Using POM framework Place an order', async ({ page }) =>
 
     const pickdate = new PickupOrderDateSelection(page);
     await pickdate.selectPickupDate();
-    console.log('Pickup date selection successful');
+    console.log('Pickup date selection successful'); 
  
 
     // Search the food items.
