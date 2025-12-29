@@ -9,6 +9,8 @@ import { AddCardDeatils } from './pages/AddCardDetatils.js';
 import { ClearCookies } from './pages/ClearCookies.js';
 import { btnCheckout } from './pages/CartCheckout.js';
 
+// Autor sathish
+
 test('Using POM framework Place an order', async ({ page }) =>
  {
     const npage = new NavigationPage(page);
